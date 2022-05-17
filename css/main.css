@@ -1,7 +1,17 @@
-body {
-    margin: 60px auto;
-    background-image: url("/images/background.jpeg");
-    width: 70%;
+header {
+    background-image: url("/images/banner.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+body { 
+	font: 16px arial, sans-serif;
+	color: #555753; 
+	background-image: url("/images/background.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+	margin-left: 100px; 
+	margin-right: 100px;
+	padding: 0;
 }
 nav {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
