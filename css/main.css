@@ -1,5 +1,6 @@
 body {
     margin: 60px auto;
+    background-image: url("background.jpeg");
     width: 70%;
 }
 nav {
