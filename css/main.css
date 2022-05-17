@@ -1,14 +1,16 @@
 header {
     background-image: url("/images/banner.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
 }
 body { 
 	font: 16px arial, sans-serif;
-	color: #555753; 
+	color: #454545; 
 	background-image: url("/images/background.jpeg"); 
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 	margin-left: 100px; 
 	margin-right: 100px;
 	padding: 0;
