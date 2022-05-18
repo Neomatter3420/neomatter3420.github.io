@@ -1,4 +1,4 @@
-#headbanner {
+.headbanner {
     background-image: url("/images/banner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 body { 
 	font: 16px arial, sans-serif;
 	color: #454545; 
-	background-color: rgba(33, 156, 156, 0.863); 
+	background-color: rgba(117, 238, 238, 0.863); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
