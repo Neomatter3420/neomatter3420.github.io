@@ -19,12 +19,13 @@ body {
 }
 .blurbbox {
     margin-left: 50px;
+    margin-top: 100px;
     margin-right: 50px;
     border: #454545;
     border-width: 2px;
     display: flex;
     flex-flow: row;
-    background: #dd8888;
+    background: #0066ff;
 }
 .blurbbox > .blurb {
     font: 14px arial, sans-serif;
@@ -41,11 +42,26 @@ body {
     min-height: 524px;
     flex: 1 1 20%;
 }
-nav {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+.twitch {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #454545;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(201, 72, 252, 0.863);
+}
+.twitch > .twitchicon {
+    flex: 1 4 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.twitch > .twitchdesc {
+    flex: 4 1 80%;
 }
 h1 {
     font-size: 3em;
@@ -55,4 +71,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+}
+footer {
+    font: 6px arial, sans-serif;
 }
