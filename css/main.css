@@ -35,6 +35,8 @@ html, body {
     color: #454545;
     margin: 20px;
     flex: 3 1 60%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .blurbbox > .headshot {
     background-image: url("/images/portrait.png");
@@ -58,7 +60,7 @@ html, body {
     border-width: 2px;
     display: flex;
     flex-flow: row;
-    background: rgba(201, 72, 252, 0.863);
+    background: rgba(227, 165, 252, 0.863);
 }
 .twitch > .twitchicon {
     flex: 1 1 20%;
@@ -69,7 +71,9 @@ html, body {
     background-size: auto;
 }
 .twitch > .twitchdesc {
+    font-size: 1.5em;
     flex: 3 1 60%;
+    margin: auto;
 }
 h1 {
     font-size: 3em;
