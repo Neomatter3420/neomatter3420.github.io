@@ -9,6 +9,7 @@
 html, body {
 	background-image: url("/images/background.png");
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100%;
     width: 100%;
     height: auto;
@@ -18,7 +19,6 @@ html, body {
     font: 16px arial, sans-serif;
 	color: #454545;
     margin: 0;
-    overflow: scroll;
 }
 .blurbbox {
     margin-left: auto;
