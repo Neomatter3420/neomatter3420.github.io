@@ -13,9 +13,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	margin-left: 100px; 
-	margin-right: 100px;
-	padding: 0;
+	margin-left: 200px; 
+	margin-right: 200px;
+	padding: 15px;
 }
 .blurbbox {
     margin-left: 50px;
@@ -51,9 +51,10 @@ body {
     display: flex;
     flex-flow: row;
     background: rgba(201, 72, 252, 0.863);
+    position: center;
 }
 .twitch > .twitchicon {
-    flex: 1 4 20%;
+    flex: 1 1 20%;
     min-width: 128px;
     min-height: 128px;
     background-position: center;
@@ -61,7 +62,7 @@ body {
     background-size: auto;
 }
 .twitch > .twitchdesc {
-    flex: 4 1 80%;
+    flex: 3 1 60%;
 }
 h1 {
     font-size: 3em;
@@ -71,7 +72,4 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    font: 6px arial, sans-serif;
 }
