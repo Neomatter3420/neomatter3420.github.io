@@ -18,6 +18,7 @@ html, body {
     font: 16px arial, sans-serif;
 	color: #454545;
     margin: 0;
+    overflow: scroll;
 }
 .blurbbox {
     margin-left: auto;
