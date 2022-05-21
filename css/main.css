@@ -6,26 +6,33 @@
     min-height: 460px;
     width: 100%;
 }
+html, body {
+	background-image: url("/images/background.png");
+    min-height: 100%;
+    min-width: 1179px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 body { 
 	font: 16px arial, sans-serif;
-	color: #454545; 
-	background-color: rgba(117, 238, 238, 0.863); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	color: #454545;
 	margin-left: 200px; 
 	margin-right: 200px;
 	padding: 15px;
 }
 .blurbbox {
-    margin-left: 50px;
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
     border: #454545;
     border-width: 2px;
     display: flex;
     flex-flow: row;
-    background: #0066ff;
+    width: 980px;
+    background: #adceff;
 }
 .blurbbox > .blurb {
     font: 14px arial, sans-serif;
@@ -45,7 +52,7 @@ body {
 .socials {
     margin-left: auto;
     margin-right: auto;
-    width: 20em;
+    width: 980px;
 }
 .twitch {
     margin-left: 50px;
