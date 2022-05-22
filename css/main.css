@@ -55,6 +55,7 @@ html, body {
     color: #000000;
     border: 1px;
     border-color: white;
+    text-align: center;
 }
 .twitch{
     margin-left: 50px;
