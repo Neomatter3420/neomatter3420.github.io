@@ -32,7 +32,7 @@ html, body {
 }
 .blurbbox > .blurb {
     font: 14px arial, sans-serif;
-    color: #454545;
+    color: #000000;
     margin: 20px;
     flex: 3 1 60%;
     margin-top: auto;
@@ -52,7 +52,7 @@ html, body {
     margin-right: auto;
     width: 980px;
     position: center;
-    color: #454545;
+    color: #000000;
     border: 1px;
     border-color: white;
 }
@@ -60,7 +60,7 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 100px;
-    border: #454545;
+    border: #000000;
     border-width: 2px;
     display: flex;
     flex-flow: row;
@@ -83,7 +83,7 @@ html, body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 100px;
-    border: #454545;
+    border: #000000;
     border-width: 2px;
     display: flex;
     flex-flow: row;
