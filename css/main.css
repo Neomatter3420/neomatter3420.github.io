@@ -51,6 +51,10 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     width: 980px;
+    position: center;
+    color: #454545;
+    border: 1px;
+    border-color: white;
 }
 .twitch {
     margin-left: 50px;
@@ -60,7 +64,7 @@ html, body {
     border-width: 2px;
     display: flex;
     flex-flow: row;
-    background: rgba(227, 165, 252, 0.863);
+    background: rgba(192, 64, 243, 0.863);
 }
 .twitch > .twitchicon {
     flex: 1 1 20%;
@@ -71,9 +75,32 @@ html, body {
     background-size: auto;
 }
 .twitch > .twitchdesc {
-    font-size: 0.5em;
+    font-size: 12px arial, sans-serif;
     flex: 3 1 60%;
     margin: auto;
+}
+.youtube {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #454545;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgb(240, 134, 134);
+}
+.youtube > .youtubeicon {
+    flex: 1 1 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.youtube > .youtubedesc {
+    flex: 3 1 60%;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
 }
 h1 {
     font-size: 3em;
