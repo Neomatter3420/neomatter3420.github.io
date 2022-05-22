@@ -56,7 +56,7 @@ html, body {
     border: 1px;
     border-color: white;
 }
-.twitch {
+.twitch, .twitter, .youtube {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 100px;
@@ -79,16 +79,6 @@ html, body {
     flex: 3 1 60%;
     margin: auto;
 }
-.youtube {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
-    border: #000000;
-    border-width: 2px;
-    display: flex;
-    flex-flow: row;
-    background: rgb(240, 134, 134);
-}
 .youtube > .youtubeicon {
     flex: 1 1 20%;
     min-width: 128px;
@@ -98,6 +88,19 @@ html, body {
     background-size: auto;
 }
 .youtube > .youtubedesc {
+    flex: 3 1 60%;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+.twitter > .twittericon {
+    flex: 1 1 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.twitter > .twitterdesc {
     flex: 3 1 60%;
     margin: auto;
     font-size: 12px arial, sans-serif;
