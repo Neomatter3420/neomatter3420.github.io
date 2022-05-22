@@ -100,6 +100,7 @@ html, body {
 }
 .youtube > .youtubedesc {
     flex: 3 1 60%;
+    margin-left: 20px;
     margin: auto;
     font-size: 12px arial, sans-serif;
 }
@@ -146,6 +147,7 @@ html, body {
 }
 .twitter > .twitterdesc {
     flex: 3 1 60%;
+    margin-left: 20px;
     margin: auto;
     font-size: 12px arial, sans-serif;
 }
@@ -191,6 +193,7 @@ html, body {
     background-size: auto;
 }
 .teespring > .teespringdesc {
+    margin-left: 20px;
     flex: 3 1 60%;
     margin: auto;
     font-size: 12px arial, sans-serif;
