@@ -90,7 +90,7 @@ html, body {
     background: rgba(255, 144, 187, 0.863);
 }
 .youtube > .youtubeicon {
-    flex: 1 1 20%;
+    margin-right: 10px;
     min-width: 128px;
     min-height: 128px;
     background-position: center;
@@ -136,7 +136,7 @@ html, body {
     background: rgba(146, 230, 255, 0.863);
 }
 .twitter > .twittericon {
-    flex: 1 1 20%;
+    margin-right: 10px;
     min-width: 128px;
     min-height: 128px;
     background-position: center;
@@ -182,7 +182,7 @@ html, body {
     background: rgba(255, 235, 124, 0.863);
 }
 .teespring > .teespringicon {
-    flex: 1 1 20%;
+    margin-right: 10px;
     min-width: 128px;
     min-height: 128px;
     background-position: center;
