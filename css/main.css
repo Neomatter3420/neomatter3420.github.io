@@ -7,13 +7,12 @@
     width: 100%;
 }
 html, body {
-
+	background-image: url("/images/background.png");
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
     width: 100%;
     height: auto;
-    position: fixed;
     top: 0;
     left: 0;
     font: 16px arial, sans-serif;
